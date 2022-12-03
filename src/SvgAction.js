@@ -690,6 +690,7 @@ SvgAction.prototype._fitViewport = function (center) {
   let newMatrix = self._svg.createSVGMatrix()
     .translate(newViewbox.x, newViewbox.y)
     .scale(newScale);
+  localStorage.setItem('scale', newScale);
   setCTM(self._viewport, { matrix: newMatrix });
 
   // 设置角度还原
