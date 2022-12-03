@@ -1,0 +1,38 @@
+{
+  "name": "svg-zoom",
+  "version": "1.0.0",
+  "description": "提供SVG缩放功能",
+  "main": "./src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config-dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "scale",
+    "range",
+    "move",
+    "drag",
+    "rotate",
+    "flip",
+    "svg to png",
+    "缩放",
+    "平移",
+    "拖放",
+    "旋转",
+    "翻转"
+  ],
+  "author": "v_vglhu",
+  "license": "apache2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/mcck-tools/svg-action.git"
+  }
+}
