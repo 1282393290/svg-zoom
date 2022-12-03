@@ -1,6 +1,6 @@
 {
   "name": "svg-zoom-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "提供SVG缩放功能",
   "main": "./src/index.js",
   "dependencies": {},
