@@ -1,5 +1,5 @@
 {
-  "name": "svg-zoom",
+  "name": "@v_vglhu/svg-zoom",
   "version": "1.0.0",
   "description": "提供SVG缩放功能",
   "main": "./src/index.js",
